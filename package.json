@@ -1,0 +1,15 @@
+{
+  "name": "gaby-science-dev-server",
+  "version": "0.0.1",
+  "author": "",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "devDependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1"
+  }
+}
