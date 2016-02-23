@@ -1,0 +1,3 @@
+interface ScienceObject {
+    message: string;
+}

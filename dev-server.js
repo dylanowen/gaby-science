@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use(express.static(path.join(__dirname, 'source'), {
+app.use(express.static(path.join(__dirname, 'build'), {
     setHeaders: function(res, path, stat) {
         //give access to everything!!!
         res.set('Access-Control-Allow-Origin', '*');
